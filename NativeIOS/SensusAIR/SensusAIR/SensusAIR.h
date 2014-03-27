@@ -33,6 +33,7 @@
  * to be able to call the native functions in the ANE from their ActionScript code
 */
 DEFINE_ANE_FUNCTION(IsSupported);
+DEFINE_ANE_FUNCTION(Debug);
 
 
 // ANE setup

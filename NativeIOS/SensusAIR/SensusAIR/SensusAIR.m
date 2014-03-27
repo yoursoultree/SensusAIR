@@ -81,6 +81,15 @@ DEFINE_ANE_FUNCTION(IsSupported)
     return fo;
 }
 
+DEFINE_ANE_FUNCTION(Debug)
+{
+    FREObject fo;
+    
+    [[Sensus sharedInstance] debug];
+    
+    return fo;
+}
+
 
 #pragma mark - ANE setup
 
@@ -139,7 +148,7 @@ void ContextInitializer(void* extData, const uint8_t* ctxType, FREContext ctx, u
     NSLog(@"Exiting ContextInitializer()");
     
 //    [[Sensus sharedInstance] setAppUUID:@"NNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN"];
-    [[Sensus sharedInstance] debug];
+//    [[Sensus sharedInstance] debug];
 }
 
 /* ContextFinalizer()
