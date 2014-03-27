@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CC74B8E18E4910B0061856B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74B8D18E4910B0061856B /* Foundation.framework */; };
+		6CC74B9018E4910B0061856B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74B8F18E4910B0061856B /* CoreFoundation.framework */; };
+		6CC74B9218E4910B0061856B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74B9118E4910B0061856B /* UIKit.framework */; };
+		6CC74B9418E4910B0061856B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74B9318E4910B0061856B /* MobileCoreServices.framework */; };
+		6CC74B9618E4910B0061856B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74B9518E4910B0061856B /* CoreGraphics.framework */; };
+		6CC74B9818E4910B0061856B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74B9718E4910B0061856B /* SystemConfiguration.framework */; };
+		6CC74B9A18E4910B0061856B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74B9918E4910B0061856B /* AudioToolbox.framework */; };
+		6CC74B9C18E4910B0061856B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74B9B18E4910B0061856B /* CFNetwork.framework */; };
+		6CC74B9E18E4910B0061856B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74B9D18E4910B0061856B /* QuartzCore.framework */; };
+		6CC74BA018E4910B0061856B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74B9F18E4910B0061856B /* OpenGLES.framework */; };
+		6CC74BA218E4910B0061856B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74BA118E4910B0061856B /* CoreLocation.framework */; };
+		6CC74BA418E4910B0061856B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74BA318E4910B0061856B /* CoreMedia.framework */; };
+		6CC74BA618E4910B0061856B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74BA518E4910B0061856B /* CoreVideo.framework */; };
+		6CC74BA818E4910B0061856B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74BA718E4910B0061856B /* AVFoundation.framework */; };
+		6CC74BAA18E4910B0061856B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74BA918E4910B0061856B /* Security.framework */; };
+		6CC74BB018E4910B0061856B /* SensusAIR.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC74BAF18E4910B0061856B /* SensusAIR.m */; };
+		6CC74BB818E4A2D60061856B /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74BB718E4A2D60061856B /* ExternalAccessory.framework */; };
+		6CC74BBB18E4A3180061856B /* SensusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC74BBA18E4A3180061856B /* SensusSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CC74B8A18E4910B0061856B /* libSensusAIR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSensusAIR.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC74B8D18E4910B0061856B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CC74B8F18E4910B0061856B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		6CC74B9118E4910B0061856B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CC74B9318E4910B0061856B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6CC74B9518E4910B0061856B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CC74B9718E4910B0061856B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6CC74B9918E4910B0061856B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6CC74B9B18E4910B0061856B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6CC74B9D18E4910B0061856B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6CC74B9F18E4910B0061856B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6CC74BA118E4910B0061856B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6CC74BA318E4910B0061856B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6CC74BA518E4910B0061856B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6CC74BA718E4910B0061856B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6CC74BA918E4910B0061856B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6CC74BAD18E4910B0061856B /* SensusAIR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SensusAIR-Prefix.pch"; sourceTree = "<group>"; };
+		6CC74BAE18E4910B0061856B /* SensusAIR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensusAIR.h; sourceTree = "<group>"; };
+		6CC74BAF18E4910B0061856B /* SensusAIR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensusAIR.m; sourceTree = "<group>"; };
+		6CC74BB118E4910B0061856B /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		6CC74BB718E4A2D60061856B /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		6CC74BB918E4A3180061856B /* SensusSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SensusSDK.bundle; sourceTree = "<group>"; };
+		6CC74BBA18E4A3180061856B /* SensusSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SensusSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CC74B8718E4910B0061856B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC74BB818E4A2D60061856B /* ExternalAccessory.framework in Frameworks */,
+				6CC74BA418E4910B0061856B /* CoreMedia.framework in Frameworks */,
+				6CC74BAA18E4910B0061856B /* Security.framework in Frameworks */,
+				6CC74B9018E4910B0061856B /* CoreFoundation.framework in Frameworks */,
+				6CC74BA218E4910B0061856B /* CoreLocation.framework in Frameworks */,
+				6CC74B9418E4910B0061856B /* MobileCoreServices.framework in Frameworks */,
+				6CC74BA618E4910B0061856B /* CoreVideo.framework in Frameworks */,
+				6CC74B9C18E4910B0061856B /* CFNetwork.framework in Frameworks */,
+				6CC74B9218E4910B0061856B /* UIKit.framework in Frameworks */,
+				6CC74B9618E4910B0061856B /* CoreGraphics.framework in Frameworks */,
+				6CC74BA018E4910B0061856B /* OpenGLES.framework in Frameworks */,
+				6CC74B9A18E4910B0061856B /* AudioToolbox.framework in Frameworks */,
+				6CC74BBB18E4A3180061856B /* SensusSDK.framework in Frameworks */,
+				6CC74B9818E4910B0061856B /* SystemConfiguration.framework in Frameworks */,
+				6CC74B8E18E4910B0061856B /* Foundation.framework in Frameworks */,
+				6CC74BA818E4910B0061856B /* AVFoundation.framework in Frameworks */,
+				6CC74B9E18E4910B0061856B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CC74B8118E4910B0061856B = {
+			isa = PBXGroup;
+			children = (
+				6CC74BB918E4A3180061856B /* SensusSDK.bundle */,
+				6CC74BAB18E4910B0061856B /* SensusAIR */,
+				6CC74B8C18E4910B0061856B /* Frameworks */,
+				6CC74B8B18E4910B0061856B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CC74B8B18E4910B0061856B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CC74B8A18E4910B0061856B /* libSensusAIR.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CC74B8C18E4910B0061856B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CC74BBA18E4A3180061856B /* SensusSDK.framework */,
+				6CC74BB718E4A2D60061856B /* ExternalAccessory.framework */,
+				6CC74B8D18E4910B0061856B /* Foundation.framework */,
+				6CC74B8F18E4910B0061856B /* CoreFoundation.framework */,
+				6CC74B9118E4910B0061856B /* UIKit.framework */,
+				6CC74B9318E4910B0061856B /* MobileCoreServices.framework */,
+				6CC74B9518E4910B0061856B /* CoreGraphics.framework */,
+				6CC74B9718E4910B0061856B /* SystemConfiguration.framework */,
+				6CC74B9918E4910B0061856B /* AudioToolbox.framework */,
+				6CC74B9B18E4910B0061856B /* CFNetwork.framework */,
+				6CC74B9D18E4910B0061856B /* QuartzCore.framework */,
+				6CC74B9F18E4910B0061856B /* OpenGLES.framework */,
+				6CC74BA118E4910B0061856B /* CoreLocation.framework */,
+				6CC74BA318E4910B0061856B /* CoreMedia.framework */,
+				6CC74BA518E4910B0061856B /* CoreVideo.framework */,
+				6CC74BA718E4910B0061856B /* AVFoundation.framework */,
+				6CC74BA918E4910B0061856B /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CC74BAB18E4910B0061856B /* SensusAIR */ = {
+			isa = PBXGroup;
+			children = (
+				6CC74BAE18E4910B0061856B /* SensusAIR.h */,
+				6CC74BAF18E4910B0061856B /* SensusAIR.m */,
+				6CC74BAC18E4910B0061856B /* Supporting Files */,
+			);
+			path = SensusAIR;
+			sourceTree = "<group>";
+		};
+		6CC74BAC18E4910B0061856B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CC74BAD18E4910B0061856B /* SensusAIR-Prefix.pch */,
+				6CC74BB118E4910B0061856B /* platformoptions.xml */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CC74B8818E4910B0061856B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6CC74B8918E4910B0061856B /* SensusAIR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC74BB418E4910B0061856B /* Build configuration list for PBXNativeTarget "SensusAIR" */;
+			buildPhases = (
+				6CC74B8618E4910B0061856B /* Sources */,
+				6CC74B8718E4910B0061856B /* Frameworks */,
+				6CC74B8818E4910B0061856B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensusAIR;
+			productName = SensusAIR;
+			productReference = 6CC74B8A18E4910B0061856B /* libSensusAIR.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CC74B8218E4910B0061856B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 6CC74B8518E4910B0061856B /* Build configuration list for PBXProject "SensusAIR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CC74B8118E4910B0061856B;
+			productRefGroup = 6CC74B8B18E4910B0061856B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CC74B8918E4910B0061856B /* SensusAIR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CC74B8618E4910B0061856B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC74BB018E4910B0061856B /* SensusAIR.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6CC74BB218E4910B0061856B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/ivodopiviz/dev/AIRSDK_Compiler/include/;
+			};
+			name = Debug;
+		};
+		6CC74BB318E4910B0061856B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/ivodopiviz/dev/AIRSDK_Compiler/include/;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CC74BB518E4910B0061856B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DSTROOT = /tmp/SensusAIR.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SensusAIR/SensusAIR-Prefix.pch";
+				GCC_VERSION = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6CC74BB618E4910B0061856B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DSTROOT = /tmp/SensusAIR.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SensusAIR/SensusAIR-Prefix.pch";
+				GCC_VERSION = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC74B8518E4910B0061856B /* Build configuration list for PBXProject "SensusAIR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC74BB218E4910B0061856B /* Debug */,
+				6CC74BB318E4910B0061856B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC74BB418E4910B0061856B /* Build configuration list for PBXNativeTarget "SensusAIR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC74BB518E4910B0061856B /* Debug */,
+				6CC74BB618E4910B0061856B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CC74B8218E4910B0061856B /* Project object */;
+}
